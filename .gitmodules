@@ -1,0 +1,6 @@
+[submodule "week01/exerices/vendor/cxxopts"]
+	path = week01/exerices/vendor/cxxopts
+	url = https://github.com/jarro2783/cxxopts.git
+[submodule "week01/exerices/vendor/cli11"]
+	path = week01/exerices/vendor/cli11
+	url = https://github.com/CLIUtils/CLI11.git
