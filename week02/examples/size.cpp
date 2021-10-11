@@ -10,5 +10,6 @@ int main()
     cout << "sizeof(short)=" << sizeof(s) << endl;
     cout << "sizeof(long)=" << sizeof(long) << endl;
     cout << "sizeof(size_t)=" << sizeof(size_t) << endl;
+    cout << "sizeof(long long)=" << sizeof(long long) << endl;
     return 0;
 }
