@@ -32,66 +32,23 @@ Course 'CS205 C/C++ Program Design' in 2021 Fall at Southern University of Scien
 * [Lab notes](week05/Lab05.pptx)
 * [Examples](week05/examples)
 
-## Chapter 6: Basics of Functions
+## [Chapter 6: Basics of Functions](week06/README.md)
 
-### Function arguments (pass by value)
+* [Lecture notes](week06/Lecture06.pptx)
+* [Lab notes](week06/Lab06.pptx)
+* [Examples](week06/examples)
 
-### array and pointer arguments
+## [Chapter 7: Advances in Functions](week07/README.md)
 
-### C style array strings
+* [Lecture notes](week07/Lecture07.pptx)
+* [Lab notes](week07/Lab07.pptx)
+* [Examples](week07/examples)
 
-### struct arguments (copy data or address)
+## [Chapter 8: Speedup Your Program](week08/README.md)
 
-### Reference and const
-
-### Lab:
-
-* an example to test integer arguments, pointer argument and reference arguments
-
-## Chapter 7: Advances in Functions
-
-### inline function (why inline? Comparison with macro)
-
-### Default arguments
-
-### Function overloading
-
-### Function templates
-
-### Recursion 
-
-### Pointer to functions
-
-### Lab:
-
-* implement a function with default arguments.
-* overload a function which can compute the absolute value for an array, the array can be int, float and double 
-`vabs(int * p, int n); //should n be int or size_t, what's the difference, please create an arrary with more than 2^31 elements` 
-`vabs(float * p, int n);`
-`vabs(float * p, int n);`
-
-## Chapter 8: Speedup Your Program
-
-### Compiler options (-O3 for GCC, -Wall, etc…)
-
-### SIMD (SSE, AVX, NEON, RISC-V, Universal Intrinsics of OpenCV)
-
-### OpenMP
-
-### Memory Hierarchies and Speed
-
-### Crop ROI from a 2D Matrix
-
-### Intel, ARM and RISC-V Architechture 
-
-### Lab:
-
-Create two 1Mx1K float matrices matA and matB, compute matA + matB.
-
-* compute the result row by row and col by col, compare the performance difference
-* use -O3 to improve the speed
-* improve the speed using SIMD, will the speed be improved? Why?
-
+* [Lecture notes](week08/Lecture08.pptx)
+* [Lab notes](week08/Lab08.pptx)
+* [Examples](week08/examples)
 
 ## Chapter 9: Basics of Classes
 
